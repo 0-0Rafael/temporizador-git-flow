@@ -1,0 +1,85 @@
+/* Fuente de Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* Estilos generales */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Estilos para el temporizador */
+.temporizador {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  text-align: center;
+  max-width: 500px;
+  width: 100%;
+}
+
+.temporizador h1 {
+  font-size: 32px;
+  margin: 0 0 20px;
+}
+
+.temporizador-contenido {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.temporizador-input {
+  margin-right: 20px;
+}
+
+.temporizador-input p {
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+
+.temporizador-input input[type=number] {
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  font-size: 24px;
+  padding: 5px 10px;
+  text-align: center;
+  width: 100px;
+}
+
+.temporizador-botones {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.temporizador-botones button {
+  background-color: #30898f;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  cursor: pointer;
+  font-size: 24px;
+  padding: 10px 20px;
+  transition: background-color 0.2s;
+}
+
+.temporizador-botones button:disabled {
+  background-color: #9e9e9e;
+  cursor: default;
+}
+
+.temporizador-botones button:hover {
+  background-color: #30898f;
+}
+
+.temporizador-tiempo {
+  font-size: 48px;
+  font-weight: bold;
+}
