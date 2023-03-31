@@ -22,7 +22,7 @@ function pararTemporizador() {
   tiempoRestante = 0;
   actualizarTiempoRestante();
   empezarBtn.disabled = false;
-  pararBtn.disabled = false;//a
+  pararBtn.disabled = true;//true error
 }
 
 function actualizarTiempoRestante() {
